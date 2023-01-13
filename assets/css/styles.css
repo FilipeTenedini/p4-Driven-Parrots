@@ -61,9 +61,10 @@ h1{
     backface-visibility: hidden;
 }
 
-.flipped-card{
+.flipped-card, .ok-card{
     transform: rotateY(180deg);
 }
+
 
 @media (max-width: 625px) {
     header{
