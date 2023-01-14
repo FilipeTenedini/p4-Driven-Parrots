@@ -1,5 +1,4 @@
 
-![image](https://user-images.githubusercontent.com/105571583/212483647-0a5b1d82-97e0-40cb-ae0f-0267670d1226.png)
 
 # 4° Projeto Driven Education Bootcamp
 
@@ -13,6 +12,9 @@
   |&nbsp;&nbsp;&nbsp<a href="#avaliacao">Avaliação da Driven do meu Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;
 </p>
 <br><br>
+
+![image](https://user-images.githubusercontent.com/105571583/212483647-0a5b1d82-97e0-40cb-ae0f-0267670d1226.png)
+
 <h1 id="Projeto"> 💻 Projeto</h1>
 
 
