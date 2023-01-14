@@ -121,9 +121,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <h1 id="Aprendizados">🧠 Aprendizados</h1>
 
-- JavaScript
-- Json
-- Objects
 - Arrays
-- Insert HTML via JS
+- Loops
+  - While and for
+- Insert HTML via JS using Loops and innerHTML with template strings.
 - remove & add Attributes
+- setTimeout & setInterval
+  - The most important functions of this project.
+    - With them I control the time of flip cards and the time when you're playing the game
