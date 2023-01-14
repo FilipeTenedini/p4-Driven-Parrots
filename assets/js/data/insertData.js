@@ -5,9 +5,12 @@ import { startTimer } from '../counters/counters.js';
 function startApp(){
     let cardsQt = 0;
 
-    while (cardsQt < 4 || cardsQt > 14 || cardsQt % 2 !== 0){ //adicionar verificação para ver se é NaN ou não e separar por verificação
+    while (cardsQt < 4 || cardsQt > 14 || cardsQt % 2 !== 0){
         cardsQt = prompt('Com quantas cartas você quer jogar? Pode escolher números pares de 4 a 14 ');
     }
+    
+    document.querySelector('.board').classList.add(`table-${cardsQt}`);
+
     cardsQt = Number(cardsQt / 2);
     startTimer();
     createData(cardsQt);
@@ -20,7 +23,7 @@ function createData(nmr) {
         cards.push(imgLista[i]);
         cards.push(imgLista[i]);
     }
-    
+
     cards.sort(comparador);
 
     insertData(cards);
@@ -36,7 +39,7 @@ function insertData(array){
                     <img src="assets/images/back.png" data-test="face-down-image" alt="">
                 </div>
                 <div class="card-back flipped-card">
-                    <img src="assets/images/${item}" data-test="face-up-image" alt="">
+                    <img src="assets/images/${item}.gif" data-test="face-up-image" alt="">
                 </div>
             </div>
         </div>

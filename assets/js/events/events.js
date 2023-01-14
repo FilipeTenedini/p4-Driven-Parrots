@@ -15,7 +15,7 @@ function addFunctions(){
 }
 
 function verifyCard(card){
-    card.classList.add('equal-verify');
+    card.classList.add('equal-verify', 'no-pointer-event');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
     const comparedItems = document.querySelectorAll('.equal-verify');
     const maxComparedItems = 2;
     const body = document.querySelector('body');
@@ -29,7 +29,7 @@ function verifyCard(card){
         if (cardOne !== cardTwo){
             setTimeout(()=>{
                 comparedItems.forEach((comparedItem)=>{
-                    comparedItem.classList.remove('flipped-card', 'equal-verify');
+                    comparedItem.classList.remove('flipped-card', 'equal-verify', 'no-pointer-event');
                     body.classList.remove('no-pointer-event');
                 });
             }, 1000)

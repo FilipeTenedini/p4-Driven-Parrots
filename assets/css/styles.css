@@ -33,7 +33,29 @@ header h2{
 .board{
     margin-top: 47px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 930px;
+
+}
+.table-4{
+    width: 300px;
+}
+.table-6{
+    width: 450px;
+}
+.table-8{
+    width: 580px;
+}
+.table-10{
+    width: 700px;
+}
+.table-12{
+    width: 810px;
+}
+.table-14{
+    width: 930px;
 }
 
 
@@ -41,6 +63,7 @@ header h2{
     position: relative;
     width: 117px;
     height: 146px;
+    margin-bottom: 30px;
 }
 .card{
     width: 100%;
@@ -76,13 +99,49 @@ header h2{
 .no-pointer-event{
     pointer-events: none;
 }
+
+@media (min-width: 626px) and (max-width: 945px){
+    header h2{
+        right: 15px;
+    }
+    .board, .table-4, 
+    .table-6 .table-8, 
+    .table-10, .table-12, 
+    .table-14{    
+        width: 100vw;
+    }    
+}
+@media (min-width: 626px) and (max-width: 745px){
+    header{
+        margin: 20px 0;
+    }
+    h1{
+        width: 450px;
+        text-align: center;
+    }
+}
 @media (max-width: 625px) {
     header{
         margin-top: 40px;
         text-align: center;
+        position: unset;
+        margin-bottom: 30px;
     }
     h1{
         font-size: 36px;
         line-height: 42px;
+        width: 300px;
+    }
+    .board, .table-4, 
+    .table-6 .table-8, 
+    .table-10, .table-12, 
+    .table-14{    
+        width: 200px;
+        flex-direction: column;
+        align-items: center;    
+    }    
+    h2 span{
+        position: fixed;
+        bottom: 25px;
     }
 }

@@ -4,6 +4,7 @@ const scoreboard = {
     time: 0,
     attempts: 0
 }
+
 let counter;
 
 function startTimer(){
@@ -12,7 +13,6 @@ function startTimer(){
         document.querySelector('h2 span').innerHTML = scoreboard.time;
     }, 1000);
 }
-
 
 function isWin(){
     const cardsQt = document.querySelectorAll('.card').length;
