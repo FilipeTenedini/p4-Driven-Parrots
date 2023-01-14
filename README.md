@@ -1,4 +1,6 @@
 
+![image](https://user-images.githubusercontent.com/105571583/212483647-0a5b1d82-97e0-40cb-ae0f-0267670d1226.png)
+
 # 4° Projeto Driven Education Bootcamp
 
 ### Você pode acessar a aplicação neste link:
@@ -75,7 +77,7 @@
 - Fim do jogo
 </summary>
 
-- [ ]  Quando o usuário terminar de virar todas as cartas corretamente, deverá ser exibido um alert com a mensagem Você ganhou em X jogadas!, sendo X a quantidade de vezes que o usuário virou uma carta no jogo, ou seja, cada carta virada é uma jogada, não é virar duas cartas que é uma jogada.
+- [ ]  Quando o usuário terminar de virar todas as cartas corretamente, deverá ser exibido um alert com a mensagem "Você ganhou em X jogadas!", sendo X a quantidade de vezes que o usuário virou uma carta no jogo, ou seja, cada carta virada é uma jogada, não é virar duas cartas que é uma jogada.
 
 </details>
 
