@@ -1,5 +1,5 @@
-import { scoreboard } from "./counters/counters.js";
-import { startApp } from './data/insertData.js';
+import { scoreboard } from "../counters/counters.js";
+import { startApp } from '../data/insertData.js';
 
 function restart(){
     let response;

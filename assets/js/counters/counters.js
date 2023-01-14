@@ -1,4 +1,4 @@
-import { restart } from '../restart.js';
+import { restart } from '../restart/restart.js';
 
 const scoreboard = {
     time: 0,
