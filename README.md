@@ -128,4 +128,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - remove & add Attributes
 - setTimeout & setInterval
   - The most important functions of this project.
-  - With them I control the time of flip cards and the time when you're playing the game
+  - With them I control the time of flipped cards, the time when you're playing the game and apply pointer-events: none; to the flipped cards
