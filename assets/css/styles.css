@@ -73,7 +73,9 @@ header h2{
     transform: rotateY(180deg);
 }
 
-
+.no-pointer-event{
+    pointer-events: none;
+}
 @media (max-width: 625px) {
     header{
         margin-top: 40px;

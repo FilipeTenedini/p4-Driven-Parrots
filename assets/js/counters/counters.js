@@ -1,11 +1,13 @@
+import { restart } from '../restart.js';
+
 const scoreboard = {
     time: 0,
     attempts: 0
 }
+let counter;
 
 function startTimer(){
-
-     let counter = setInterval(()=>{
+     counter = setInterval(()=>{
         scoreboard.time += 1
         document.querySelector('h2 span').innerHTML = scoreboard.time;
     }, 1000);
@@ -17,10 +19,14 @@ function isWin(){
     const okCards = document.querySelectorAll('.ok-card').length
     if (okCards === cardsQt){
         clearInterval(counter);
-        alert(`Você conseguiu em ${scoreboard.time} segundos e ${scoreboard.attempts} jogadas`);
-        
+        setTimeout(()=>{
+            alert(`Você ganhou ${scoreboard.attempts} jogadas! A duração do jogo foi de ${scoreboard.time} segundos!`);
+            clearInterval(counter); 
+            restart();  
+        }, 1000);
+
     }
 }
 
-// só falta travar o timer quando ganho e impedir de clicar em cartas enquanto o setTimeout estiver acontecendo.
+
 export { scoreboard, startTimer, isWin };

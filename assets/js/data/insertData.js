@@ -30,13 +30,13 @@ function createData(nmr) {
 function insertData(array){
     array.forEach((item)=>{
         document.querySelector('.board').innerHTML +=`
-        <div class="card-container">
+        <div data-test="card" class="card-container">
             <div class="card">
                 <div class="card-front">
-                    <img src="assets/images/back.png" alt="">
+                    <img src="assets/images/back.png" data-test="face-down-image" alt="">
                 </div>
                 <div class="card-back flipped-card">
-                    <img src="${item}" alt="">
+                    <img src="${item}" data-test="face-up-image" alt="">
                 </div>
             </div>
         </div>
@@ -51,4 +51,4 @@ function comparador() {
 startApp();
 
 
-export {};
+export { startApp };
