@@ -36,7 +36,7 @@ function insertData(array){
                     <img src="assets/images/back.png" data-test="face-down-image" alt="">
                 </div>
                 <div class="card-back flipped-card">
-                    <img src="${item}" data-test="face-up-image" alt="">
+                    <img src="assets/images/${item}" data-test="face-up-image" alt="">
                 </div>
             </div>
         </div>
