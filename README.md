@@ -127,4 +127,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Arrays
 - Insert HTML via JS
 - remove & add Attributes
-- Integração com WhatsApp via link
