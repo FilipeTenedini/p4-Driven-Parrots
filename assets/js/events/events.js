@@ -23,8 +23,8 @@ function verifyCard(card){
     if (comparedItems.length === maxComparedItems){
         body.classList.add('no-pointer-event');
 
-        let cardOne = comparedItems[0].querySelector('.card-back img').getAttribute('src');
-        let cardTwo = comparedItems[1].querySelector('.card-back img').getAttribute('src');
+        let cardOne = comparedItems[0].querySelector('.card-back img').src;
+        let cardTwo = comparedItems[1].querySelector('.card-back img').src;
 
         if (cardOne !== cardTwo){
             setTimeout(()=>{
