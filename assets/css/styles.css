@@ -100,18 +100,7 @@ header h2{
     pointer-events: none;
 }
 
-@media (min-width: 626px) and (max-width: 945px){
-    header h2{
-        right: 15px;
-    }
-    .board, .table-4, 
-    .table-6 .table-8, 
-    .table-10, .table-12, 
-    .table-14{    
-        width: 100vw;
-    }    
-}
-@media (min-width: 336px) and (max-width: 745px){
+@media (min-width: 336px) and (max-width: 945px){
     header{
         margin: 50px 0;
     }
@@ -119,22 +108,26 @@ header h2{
         width: 450px;
         text-align: center;
     }
-    h2 span{
-        position: absolute;
-        top: -20px;
+    header h2{
+        top: -40px;
+        left: 48%;
     }
+
     .board, .table-4, 
     .table-6 .table-8, 
     .table-10, .table-12, 
     .table-14{    
-        width: calc(100vw - 20px);
+        width: 300px;
     }    
+    .card-container:last-child{
+        margin-right: 0;
+    }
 }
+
 @media (max-width: 335px) {
     header{
         margin-top: 40px;
         text-align: center;
-        position: unset;
         margin-bottom: 30px;
     }
     h1{
@@ -142,6 +135,7 @@ header h2{
         line-height: 42px;
         width: 300px;
     }
+
     .board, .table-4, 
     .table-6 .table-8, 
     .table-10, .table-12, 
