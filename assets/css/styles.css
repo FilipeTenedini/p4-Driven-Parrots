@@ -111,16 +111,26 @@ header h2{
         width: 100vw;
     }    
 }
-@media (min-width: 626px) and (max-width: 745px){
+@media (min-width: 336px) and (max-width: 745px){
     header{
-        margin: 20px 0;
+        margin: 50px 0;
     }
     h1{
         width: 450px;
         text-align: center;
     }
+    h2 span{
+        position: absolute;
+        top: -20px;
+    }
+    .board, .table-4, 
+    .table-6 .table-8, 
+    .table-10, .table-12, 
+    .table-14{    
+        width: calc(100vw - 20px);
+    }    
 }
-@media (max-width: 625px) {
+@media (max-width: 335px) {
     header{
         margin-top: 40px;
         text-align: center;
