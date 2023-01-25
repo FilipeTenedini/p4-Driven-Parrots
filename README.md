@@ -129,3 +129,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - setTimeout & setInterval
   - The most important functions of this project.
   - With them I control the time of flipped cards, the time when you're playing the game and apply pointer-events: none; to the flipped cards
+
+  <h1 id="avaliacao">📚 Avaliação da Driven do meu Projeto</h1>
+  <div align="center">
+  
+  ![image](https://user-images.githubusercontent.com/105571583/214611640-905b2c0f-31a1-48ab-bd3c-e8b6201d02d4.png)
+
+  
+  </div>
