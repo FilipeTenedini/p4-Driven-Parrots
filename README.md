@@ -4,7 +4,12 @@
 
 ### Você pode acessar a aplicação neste link:
   ### - <a href="https://filipetenedini.github.io/p4-Driven-Parrots/"> Parrots Memory Game </a>
+  ### - <a href="https://www.figma.com/file/EBizkrjH73Ku9fmib49Hlm/Parrot-Card-Game?node-id=0%3A1"> Figma </a>
+  
+  
 <br><br><br>
+
+
 <p align="center">
   |&nbsp;&nbsp;&nbsp<a href="#Projeto">Projeto</a>&nbsp;&nbsp;
   |&nbsp;&nbsp;&nbsp<a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;
